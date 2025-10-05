@@ -1,0 +1,20 @@
+cd /c/dev/portfolio-etl-cli
+cat > .gitignore << 'EOF'
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# 生成物（インデックス・ログ）
+storage/
+logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+EOF
