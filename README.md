@@ -1,3 +1,6 @@
+[▶ Live Demo](https://portfolio-etl-cli.streamlit.app/)
+
+
 # RAG Indexer & Search（Streamlit + CLI）
 
 アップロードした文書を **ETL → ベクトル化 → 近傍検索（RAGの下回り）** までノーコードで実行。
